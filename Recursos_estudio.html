@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 10px;
+            position: relative;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            padding: 5px;
+        }
+
+        nav table {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #fff;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 100%;
+        }
+
+        nav ul li:hover table {
+            display: table;
+        }
+
+        nav table tr td {
+            padding: 5px;
+        }
+
+        main {
+            margin: 20px;
+        }
+
+        article {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Recursos para Análisis de Datos</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Rutas de estudio</a>
+                <table>
+                    <tr>
+                        <td><a href="Recursos_estudio.html">Análisis de Datos en 1 mes</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="powerBI.html">Ruta 2: Power BI</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="machine_learning.html">Ruta 3: Machine Learning</a></td>
+                    </tr>
+                </table>
+            </li>
+            <li><a href="certificados.html">Cursos certificados</a></li>
+            <li><a href="libros.html">Libros</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Semana 1: Fundamentos de Análisis de Datos y Estadística</h2>
+            <ol>
+                <li>
+                    <h3>Conceptos básicos de probabilidad y estadística:</h3>
+                    <ul>
+                        <li>Tutorial de Khan Academy sobre probabilidad y estadística: <a href="https://es.khanacademy.org/math/probability">Khan Academy - Probabilidad y estadística</a></li>
+                        <li>Libro recomendado: "Estadística para Dummies" de Deborah Rumsey.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Muestreo y estimación:</h3>
+                    <ul>
+                        <li>Tutorial de Stat Trek sobre muestreo y estimación: <a href="https://stattrek.com/sampling/sampling.aspx">Stat Trek - Muestreo y estimación</a></li>
+                        <li>Libro recomendado: "Sampling Techniques" de Cochran, W.G. y otros.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Correlación y regresión:</h3>
+                    <ul>
+                        <li>Tutorial de Statistic How To sobre correlación y regresión: <a href="https://www.statisticshowto.com">Statistic How To - Correlación y regresión</a></li>
+                        <li>Libro recomendado: "Applied Regression Analysis and Generalized Linear Models" de Fox, J.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Ejercicios de probabilidad y estadística en Python y R:</h3>
+                    <ul>
+                        <li>Proyectos y desafíos de datos en Kaggle: <a href="https://www.kaggle.com/projects">Kaggle Projects</a></li>
+                        <li>Curso en línea "Statistics for Data Science Using Python" en Udemy: <a href="https://www.udemy.com/course/statistics-for-data-science-using-python/">Udemy - Statistics for Data Science Using Python</a></li>
+                    </ul>
+                </li>
+            </ol>
+        </article>
+
+        <article>
+            <h2>Semana 2: Manipulación de Datos y Análisis Exploratorio</h2>
+            <ol>
+                <li>
+                    <h3>Manipulación de datos en Python y R:</h3>
+                    <ul>
+                        <li>Documentación oficial de pandas: <a href="https://pandas.pydata.org/docs/">pandas - Documentación</a></li>
+                        <li>Documentación oficial de dplyr: <a href="https://dplyr.tidyverse.org">dplyr - Documentación</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Limpieza y transformación de datos:</h3>
+                    <ul>
+                        <li>Tutorial de DataCamp sobre limpieza de datos con Python: <a href="https://www.datacamp.com/courses/cleaning-data-in-python">DataCamp - Cleaning Data in Python</a></li>
+                        <li>Tutorial de DataCamp sobre limpieza de datos con R: <a href="https://www.datacamp.com/courses/cleaning-data-in-r">DataCamp - Cleaning Data in R</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Análisis exploratorio de datos:</h3>
+                    <ul>
+                        <li>Libro recomendado: "Exploratory Data Analysis" de Tukey, J.W.</li>
+                        <li>Galería de visualizaciones de seaborn: <a href="https://seaborn.pydata.org/examples/index.html">seaborn - Gallery</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Conjuntos de datos reales para práctica:</h3>
+                    <ul>
+                        <li>Repositorio de conjuntos de datos de UCI Machine Learning Repository: <a href="https://archive.ics.uci.edu/ml/index.php">UCI Machine Learning Repository</a></li>
+                    </ul>
+                </li>
+            </ol>
+        </article>
+
+        <article>
+            <h2>Semana 3: Análisis Estadístico Avanzado</h2>
+            <ol>
+                <li>
+                    <h3>Pruebas de hipótesis, ANOVA y pruebas no paramétricas:</h3>
+                    <ul>
+                        <li>Tutorial de Laerd Statistics sobre pruebas estadísticas: <a href="https://statistics.laerd.com">Laerd Statistics - Statistical Tutorials</a></li>
+                        <li>Libro recomendado: "Statistical Inference" de Casella, G. y Berger, R.L.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Análisis multivariable y machine learning:</h3>
+                    <ul>
+                        <li>Tutorial de scikit-learn sobre machine learning con Python: <a href="https://scikit-learn.org/stable/user_guide.html">scikit-learn - User Guide</a></li>
+                        <li>Tutorial de DataCamp sobre machine learning con R: <a href="https://www.datacamp.com/courses/machine-learning-with-r">DataCamp - Machine Learning with R</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Interpretación y comunicación de resultados:</h3>
+                    <ul>
+                        <li>Artículo de Harvard Business Review sobre comunicación efectiva de análisis de datos: <a href="https://hbr.org/2013/04/how-to-tell-a-story-with-data">HBR - Data Storytelling</a></li>
+                    </ul>
+                </li>
+            </ol>
+        </article>
+
+        <article>
+            <h2>Semana 4: Procesamiento de Datos a Gran Escala y Visualización Avanzada</h2>
+            <ol>
+                <li>
+                    <h3>Procesamiento de datos a gran escala:</h3>
+                    <ul>
+                        <li>Tutorial de Apache Spark: <a href="https://spark.apache.org/docs/latest/">Apache Spark - Documentation</a></li>
+                        <li>Tutorial de Hadoop: <a href="https://hadoop.apache.org/docs/">Hadoop - Documentation</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Visualización de datos avanzada:</h3>
+                    <ul>
+                        <li>Galería de ejemplos de visualizaciones con matplotlib: <a href="https://matplotlib.org/stable/gallery/index.html">matplotlib - Gallery</a></li>
+                        <li>Galería de ejemplos de visualizaciones con ggplot2: <a href="https://ggplot2.tidyverse.org">ggplot2 - Gallery</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Análisis de datos no estructurados:</h3>
+                    <ul>
+                        <li>Tutorial de NLTK para procesamiento de texto con Python: <a href="https://www.nltk.org/book/">NLTK - Book</a></li>
+                        <li>Tutorial de spaCy para procesamiento de texto con Python: <a href="https://spacy.io/usage">spaCy - Documentation</a></li>
+                    </ul>
+                </li>
+            </ol>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2023 Recursos de Estudio. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

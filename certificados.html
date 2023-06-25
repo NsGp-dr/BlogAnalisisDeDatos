@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 10px;
+            position: relative;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            padding: 5px;
+        }
+
+        nav table {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #fff;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 100%;
+        }
+
+        nav ul li:hover table {
+            display: table;
+        }
+
+        nav table tr td {
+            padding: 5px;
+        }
+
+        main {
+            margin: 20px;
+        }
+
+        article {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Recursos para Análisis de Datos</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Rutas de estudio</a>
+                <table>
+                    <tr>
+                        <td><a href="Recursos_estudio.html">Análisis de Datos en 1 mes</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="powerBI.html">Ruta 2: Power BI</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="machine_learning.html">Ruta 3: Machine Learning</a></td>
+                    </tr>
+                </table>
+            </li>
+            <li><a href="certificados.html">Cursos certificados</a></li>
+            <li><a href="libros.html">Libros</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Plataformas con certificados gratuitos</h2>
+            <ul>
+                <li><a href="https://www.coursera.org/learn/machine-learning" target="_blank">Coursera - Machine Learning - Andrew Ng</a></li>
+                <li><a href="https://www.coursera.org/learn/python-machine-learning" target="_blank">Coursera - Applied Machine Learning in Python</a></li>
+                <li><a href="https://www.coursera.org/learn/python-plotting" target="_blank">Coursera - Applied Plotting, Charting & Data Representation in Python</a></li>
+                <li><a href="https://www.edx.org/professional-certificate/harvardx-data-science" target="_blank">edX - Data Science (HarvardX)</a></li>
+                <li><a href="https://www.kaggle.com/learn/data-cleaning" target="_blank">Kaggle - Data Cleaning Tutorial</a></li>
+                <li><a href="https://scikit-learn.org/stable/tutorial/index.html" target="_blank">Scikit-learn - Documentation (Python)</a></li>
+                <li><a href="https://matplotlib.org/stable/tutorials/index.html" target="_blank">Matplotlib - Documentation (Python)</a></li>
+            </ul>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2023 Mi Blog. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

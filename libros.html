@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 10px;
+            position: relative;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            padding: 5px;
+        }
+
+        nav table {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #fff;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 100%;
+        }
+
+        nav ul li:hover table {
+            display: table;
+        }
+
+        nav table tr td {
+            padding: 5px;
+        }
+
+        main {
+            margin: 20px;
+        }
+
+        article {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Recursos para Análisis de Datos</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Rutas de estudio</a>
+                <table>
+                    <tr>
+                        <td><a href="Recursos_estudio.html">Análisis de Datos en 1 mes</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="powerBI.html">Ruta 2: Power BI</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="machine_learning.html">Ruta 3: Machine Learning</a></td>
+                    </tr>
+                </table>
+            </li>
+            <li><a href="certificados.html">Cursos certificados</a></li>
+            <li><a href="libros.html">Libros</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Libros recomendados</h2>
+            <h3>Machine Learning:</h3>
+            <ol>
+                <li>
+                    <strong>"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow"</strong> - Aurélien Géron<br>
+                    Recomendación: Excelente libro para principiantes y aquellos que desean adquirir una comprensión práctica de los conceptos fundamentales del aprendizaje automático.
+                </li>
+                <li>
+                    <strong>"Pattern Recognition and Machine Learning"</strong> - Christopher M. Bishop<br>
+                    Recomendación: Texto más avanzado que cubre en detalle los conceptos y algoritmos del aprendizaje automático, con enfoque en modelos probabilísticos.
+                </li>
+                <li>
+                    <strong>"Deep Learning"</strong> - Ian Goodfellow, Yoshua Bengio, Aaron Courville<br>
+                    Recomendación: Libro exhaustivo que aborda los aspectos teóricos y prácticos del aprendizaje profundo, con enfoque en redes neuronales.
+                </li>
+            </ol>
+
+            <h3>Power BI:</h3>
+            <ol>
+                <li>
+                    <strong>"Analyzing Data with Power BI and Power Pivot for Excel"</strong> - Alberto Ferrari, Marco Russo<br>
+                    Recomendación: Guía completa para aprender a utilizar Power BI y Power Pivot en Excel, desde conceptos básicos hasta técnicas avanzadas.
+                </li>
+                <li>
+                    <strong>"Power BI Cookbook"</strong> - Brett Powell<br>
+                    Recomendación: Libro práctico que ofrece recetas y soluciones para resolver problemas comunes y aprovechar al máximo las capacidades de Power BI.
+                </li>
+                <li>
+                    <strong>"Mastering Microsoft Power BI"</strong> - Brett Powell<br>
+                    Recomendación: Recurso avanzado que cubre aspectos más profundos de Power BI, como el modelado de datos y el desarrollo de soluciones empresariales.
+                </li>
+            </ol>
+
+            <h3>Análisis de Datos:</h3>
+            <ol>
+                <li>
+                    <strong>"Python for Data Analysis"</strong> - Wes McKinney<br>
+                    Recomendación: Guía completa para el análisis de datos con Python, utilizando bibliotecas populares como pandas y NumPy.
+                </li>
+                <li>
+                    <strong>"Data Science for Business"</strong> - Foster Provost, Tom Fawcett<br>
+                    Recomendación: Libro que explora la aplicación de técnicas de ciencia de datos en el entorno empresarial, con enfoque en la toma de decisiones basada en datos.
+                </li>
+                <li>
+                    <strong>"The Art of Data Science"</strong> - Roger D. Peng, Elizabeth Matsui<br>
+                    Recomendación: Libro que proporciona una visión general de la ciencia de datos y cubre diversos aspectos, desde la recolección y limpieza de datos hasta la comunicación de resultados.
+                </li>
+            </ol>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2023 Mi Blog. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
